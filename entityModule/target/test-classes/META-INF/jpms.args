@@ -1,0 +1,4 @@
+--patch-module
+entityModule=_
+--add-reads
+entityModule=ALL-UNNAMED
