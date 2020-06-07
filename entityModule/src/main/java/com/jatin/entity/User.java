@@ -1,14 +1,16 @@
-package com.java9.entity;
+package com.jatin.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "User", schema = "public")
 public class User {
 
-    public User() {}
-
     @Id
+    @GeneratedValue
     private Integer id;
 
     private String firstName;

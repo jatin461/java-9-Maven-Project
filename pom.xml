@@ -15,9 +15,9 @@
     </properties>
     <modules>
         <module>entityModule</module>
-        <module>web</module>
         <module>dao</module>
         <module>service</module>
+        <module>web</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
